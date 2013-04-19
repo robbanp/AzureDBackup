@@ -8,6 +8,20 @@ It can send you e-mails when jobs are done and when they fail.
 
 The generated database backups are pushed as .BACPAC files to your favourite Azure Blob Storage account in the container of your choice.
 
+Dependencies
+============
+
+In order to get this working in a Worker Role you need to add a few DLL's to the References:
+Add all the files in <a href="https://github.com/robbanp/AzureDBackup/tree/master/AzureDBackup/Assemblies">Assemblies</a> and set Copy Local to true (in visual studio).
+
+```csharp
+Microsoft.Data.Tools.Schema.Sql.dll
+Microsoft.Data.Tools.Utilities.dll	
+Microsoft.SqlServer.Dac.dll	
+Microsoft.SqlServer.TransactSql.ScriptDom.dll	
+Microsoft.SqlServer.TransactSql.dll	
+Microsoft.SqlServer.Types.dll
+```
 
 How it works:
 
