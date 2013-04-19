@@ -43,6 +43,8 @@ var bctxDaily = new BackupContext
   };
 ```
 
+And, this is a <a href="http://www.cronmaker.com/">great cron syntax tool</a>!
+
 The example above sets the basic conf as well as a MailSetting object that looks like this:
 
 ```csharp
