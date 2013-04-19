@@ -119,6 +119,8 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assemblies\Microsoft.Data.Tools.Schema.Sql.dll" />
+    <Content Include="Assemblies\Microsoft.Data.Tools.Utilities.dll" />
     <Content Include="Assemblies\Microsoft.SqlServer.Dac.dll" />
     <Content Include="Assemblies\Microsoft.SqlServer.TransactSql.dll" />
     <Content Include="Assemblies\Microsoft.SqlServer.TransactSql.ScriptDom.dll" />
